@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <!--
 	Strata by HTML5 UP
-	html5up.net | @ajlkn
 -->
 <html>
 	<head>
@@ -18,15 +17,18 @@
 					<!-- style="width:128px;height:128px;" -->
 					<a href="#" class="image avatar"><img src="images/avatar.jpg"  alt="" /></a>
 					<h1><strong>Rushali Mohbe</strong></h1>
+					<h2><strong>ML Engineer specializing in LLMs, RAG Systems & AI Safety</strong></h2>
+					<br>
 					<nav id="nav">
-						<h2>
+						<h3>
 							<a href="#one" class="active" >About Me</a><br>
 							<a href="#two">Projects</a><br>
-							<a href="#three">Research</a><br>
+							<a href="#three">Publications</a><br>
 							<a href="#four">News</a><br>
-							<a href="#five">Art</a><br>
 							<a href="Rushali_Mohbe_CV.pdf">CV</a><br>
-						</h2>
+							<a href="#five">Art</a><br>
+							
+						</h3>
 					</nav>
 				</div>
 			</header>
@@ -42,52 +44,72 @@
 							</h3>
 						</header>
 						<p>
-							I'm Rushali, an AI enthusiast currently navigating the realm between technology and humanity.  
-							I am an ardent advocate for human-centered machine learning, dedicated to fostering trust between individuals and AI systems. 
+							I'm Rushali, an ML Engineer passionate about building responsible AI systems that bridge the gap between cutting-edge research and real-world healthcare impact.  
+							As an ardent advocate for human-centered machine learning, I am dedicated to fostering trust between individuals and AI systems through my work. 
+							
 							<br><br>
-							I am a first-year Master’s student at Northeastern University, Boston. 
-							Under the guidance of <a href="https://scarpino.github.io/">Samuel Scarpino</a>, I am engaged in predicting disease outbreaks and simulating epidemic strategies, 
-							using Large Language Models, at the <a href="https://ai.northeastern.edu/">Institute for Experiential AI</a>. 
-							My current research interests revolve around eXplainable AI, machine learning interpretability, and the examination of biases within AI systems.
+							Having just completed my Master's in AI at Northeastern University, I specialize in Large Language Models, Retrieval-Augmented Generation, 
+							and AI Safety—with a particular focus on public health and healthcare applications. 
+							<br>
+							For my master's thesis with <a href="https://scarpino.github.io/">Samuel Scarpino</a>, I developed a comprehensive framework for evaluating "unlearning" in 
+							Large Language Models (LLMs) using Knowledge Graphs; work that addresses critical industry needs for privacy compliance and responsible AI deployment. 
+							This research, presented at NeurIPS 2024, has direct applications for companies navigating GDPR requirements and ethical AI deployment.
+							<br>
+							During my masters, I was also working on disease outbreak prediction systems using LLMs at the <a href="https://ai.northeastern.edu/">Institute for Experiential AI</a>. 
+							My research interests span explainable AI, machine learning interpretability, and AI safety; areas I continue exploring even outside my formal research role.
 							<br><br>
-							Previously, I was an R&D Engineer at ArtPark, Indian Institute of Science(IISc) where I led the development of telepresence systems 
-							for humanoid robots under the supervision of <a href="https://sites.google.com/view/aml-ids-iisc/home">Dr Amrutur Bharadwaj</a>. 
-							I also got to work on some cool projects like the animation of an avatar’s facial expressions and real-time viseme detection 
-							from live streams. 
-							Notably, I was also part of the team from IISc that made it to the semi-finals of the <a href="https://www.xprize.org/prizes/avatar">$10 MILLION Avatar XPRIZE Competition</a>. 
+							Previously, I led telepresence system development for humanoid robots at the Indian Institute of Science, 
+							where our team made it to the semi-finals of the <a href="https://www.xprize.org/prizes/avatar">$10 MILLION Avatar XPRIZE Competition</a>.
+							That experience taught me the importance of bridging hardware and software to create seamless human-AI interactions.
 							<br><br>
-							Outside of research, I love to bake and paint. 
+							Outside of building models and keeping up with current research, I absolutely love to paint. 
+							<br>
 							My canvas includes but is not limited to paper, walls, rocks, my nails and my face. 
+							<br>
 							I also do tricks on my jump rope and hula hoop. 
-							Sadly, a wrist injury keeps me from continuing to train in aerial silks at the moment. 
 
 					</section>
 
 					<section id="two">
 						<h2>Recent Projects</h2>
+
+
 						<header>
-							<h4>Heartbeat Hues</h4>
-							<!-- <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p> -->
+							<h3>LLM Unlearning Evaluation Framework</h3>
 						</header>
-							<p><span class="image left"><img src="images/fulls/heartbeat.jpg" alt="" /></span>
-								Applying eXplainable AI techniques to compare popular neural network model architectures 
-								and determine whether they make decisions based on the same features. 
-								The goal is to understand what features, or time segments, are deemed most important in determining 
-								whether a person has congestive heart failure. 
-								<!-- By allowing a healthcare professional to viaually analyze the segments of importance, they can 
-								determine whether the AI recommender is making it's predictions accurately. -->
-							
+							<p><span class="image left"><img src="images/fulls/unlearning.png" alt="" /></span>
+								As AI systems become more prevalent, the ability to "unlearn" specific information becomes crucial for privacy compliance and safety. 
+								I developed a comprehensive framework for evaluating machine unlearning in large language models using knowledge graphs, distance metrics and 
+								network science measures to quantify unlearning performance while identifying potentially harmful ripple effects that could compromise model integrity.
+								<br>
+								This work could directly addresses GDPR compliance requirements and privacy regulations that that need to be met when deploying LLMs in production.
 							</p>
 
 						<header>
-							<h4>Pandemic Prevention Strategy Testing</h4>
-							<!-- <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p> -->
+							<h3>Pandemic Preparedness Strategy Testing</h3>
 						</header>
 							<p><span class="image left"><img src="images/fulls/epidemic.jpg" alt="" /></span>
-								Leveraging Large Language Models to allow policymakers to test strategies to handle epidemic outbreaks.
-								Comparing models trained with word embeddings from different tokenizers to determine the amount of extra 
-								information or context inferred. Additionally, testing if this extra context corresponds to any biases.
-								</p>
+								I developed a text-based pandemic simulation system by fine-tuning LLMs on 100,000+ outbreak reports from WHO and ProMED. 
+								Built on a RAG architecture to minimize hallucinations, the system can generate realistic, novel outbreak scenarios that lets 
+								public health officials safely test intervention strategies and improve preparedness through immersive, data-driven simulations.
+							</p>
+
+
+						<header>
+							<h3>Heartbeat Hues</h3>	
+						</header>
+							<p><span class="image left"><img src="images/fulls/heartbeat.jpg" alt="" /></span>
+								Healthcare AI must be interpretable to gain clinician trust. 
+								I adapted LIME (Local Interpretable Model-agnostic Explanations) to analyze feature importance in heart congestion detection 
+								from ECG data, comparing CNN and LSTM architectures to understand decision-making patterns.
+								<br>
+								Demonstrated a 68% alignment in top features and 100% alignment in top two features between the different model architectures, 
+								thus providing confidence in the consistency of AI-driven cardiac assessments.
+								<br>
+								This work addresses the critical need for explainable AI in medical settings, where understanding model decisions is as important as accuracy.
+							
+							</p>
+
 					</section>
 
 
@@ -96,7 +118,14 @@
 				<!-- Three -->
 				<section id="three">
 					<h2>Publications</h2>
-					<p><a href="https://www.ais.uni-bonn.de/ICRA2023AvatarWS/contributions/ICRA_2023_Avatar_WS_Mohbe.pdf">An Autonomous Mobile Robot based Tele-Presence System with Augmentation</a> <br>
+
+					<p> <strong>LLM Unlearning EKG: Evaluations using Knowledge Graphs </strong><br>
+						<i>Rushali Mohbe, Dr. Samuel Scarpino</i> <br>
+						NeurIPS 2024 - 19th Women in Machine Learning Workshop
+					</p>
+
+					<!-- <p><a href="https://www.ais.uni-bonn.de/ICRA2023AvatarWS/contributions/ICRA_2023_Avatar_WS_Mohbe.pdf">An Autonomous Mobile Robot based Tele-Presence System with Augmentation</a> <br> -->
+					<p><strong> An Autonomous Mobile Robot based Tele-Presence System with Augmentation  </strong> <br>	
 						<i>Rushali Mohbe, Poornima J D, Srijan Dokania, Shashank Goyal, Sridatta Chatterjee, and Bharadwaj Amrutur</i> <br>
 						ICRA 2nd Workshop Toward Robot Avatars
 					</p>
@@ -107,13 +136,16 @@
 				<!-- Four -->
 				<section id="four">
 					<h2>News</h2>
-					<b>2023:</b> Started a new position at The Institute of Experiential AI <br>
-					<b>2023:</b> Joined Northeastern University for a Masters in Artificial Intelligence <br>
-					<b>2023:</b> My paper titled "An Autonomous Mobile Robot-based Tele-Presence System with Augmentation" was accepted at 2nd Workshop Toward Robot Avatars @ ICRA 2023 <br>
-					<b>2021:</b> Semifinalist at $10 MILLION Avatar XPRIZE Competition <br>
-					<!-- <b>2023:</b>  <br> -->
-
-
+					<b> May 2025:</b> Graduated with a Masters in AI from Northeastern University. <br>
+					<b> Apr 2025:</b> Defended my Masters Thesis "UNLEARN-KG: LLM Unlearning Evaluation Using Knowledge Graphs" <br>
+					<b> Dec 2024:</b> Attended and presented my workshop paper at NeurIPS 2024 <br>
+					<b> Oct 2024:</b> Ethics Reviewer for NeurIPS 2024 <br>
+					<b>Sept 2024:</b> My paper titled "LLM Unlearning EKG: Evaluations using Knowledge Graphs" was accepted at WiML Workshop @ NeurIPS 2024 <br>
+					<b> May 2024:</b> Sucessfully completed the AI Safety Fundamentals course by BlueDot Impact <br>
+					<b>Sept 2023:</b> Started a new position at The Institute of Experiential AI <br>
+					<b>Sept 2023:</b> Joined Northeastern University for a Masters in Artificial Intelligence <br>
+					<b> Mar 2023:</b> My paper titled "An Autonomous Mobile Robot-based Tele-Presence System with Augmentation" was accepted at 2nd Workshop Toward Robot Avatars @ ICRA 2023 <br>
+					<b> Oct 2021:</b> Semifinalist at $10 MILLION Avatar XPRIZE Competition <br>
 				</section>
 
 
@@ -126,32 +158,32 @@
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
 								<h3>Lost in Space</h3>
-								<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+								
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
 								<h3>Koi Bois</h3>
-								<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+								
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
 								<h3>Moon shine</h3>
-								<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+								
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
 								<h3>Poor unfortunate souls</h3>
-								<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+								
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
 								<h3>Angular</h3>
-								<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+								
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
 								<h3>Bloom</h3>
-								<!-- <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p> -->
+								
 							</article>
 						</div>
 						<ul class="actions">
@@ -170,9 +202,6 @@
 						<li><a href="https://scholar.google.com/citations?user=Cfci5C0AAAAJ&hl=en&authuser=2" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
 						<li><a href="mailto:mohbe.r@northeastern.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 
-					</ul>
-					<ul class="copyright">
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
